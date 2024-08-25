@@ -1,0 +1,19 @@
+
+[build]
+  # Command to build your Vite project
+  command = "npm run build"
+  # Directory where the built files are located
+  publish = "dist"
+
+[[headers]]
+  # Apply headers to all JavaScript files
+  for = "/*.js"
+  [headers.values]
+    # Ensure JS files are served with the correct MIME type
+    Content-Type = "application/javascript"
+
+[[redirects]]
+  # Redirect all routes to index.html for SPA routing
+  from = "/*"
+  to = "/index.html"
+  status = 200
