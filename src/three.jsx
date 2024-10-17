@@ -32,7 +32,7 @@ const ThreeScene = () => {
         scene.add(pointLight);
 
         // Camera Position
-        camera.position.z = 5;
+        camera.position.z = 9;
 
         // Animation Loop
         const animate = () => {
