@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white border-b border-gray-200 fixed top-0 left-0 right-0 z-50">
-      <div className="w-full px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4">
         <div className="flex items-center h-16">
           <div className="flex gap-3 items-center">
             <Link to="/" className="text-lg font-bold text-indigo-600">
@@ -25,7 +25,7 @@ export default function Navbar() {
               Get in Touch
             </Link>
         </div>
-          <div className="flex md:hidden">
+          <div className="flex md:hidden ml-auto">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none"
