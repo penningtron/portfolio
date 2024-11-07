@@ -1,4 +1,4 @@
-export default function Example() {
+export default function Hero() {
     return (
       <div className="pt-4 relative bg-white">
         <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">

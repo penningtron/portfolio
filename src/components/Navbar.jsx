@@ -7,14 +7,12 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white border-b border-gray-200 fixed top-0 left-0 right-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center h-16">
           <div className="flex gap-3 items-center">
             <Link to="/" className="text-lg font-bold text-indigo-600">
               Logo
             </Link>
-          
-        
             <Link to="/about" className="text-gray-700 hover:text-indigo-600">
               About
             </Link>
@@ -22,12 +20,11 @@ export default function Navbar() {
               Projects
             </Link>
         </div>
-          
-          <div className="hidden md:flex">
+        <div className="ml-auto hidden md:flex lg:ml-auto xl:ml-auto">
             <Link to="/contact" className="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
               Get in Touch
             </Link>
-          </div>
+        </div>
           <div className="flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
