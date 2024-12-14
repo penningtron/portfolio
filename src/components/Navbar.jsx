@@ -19,6 +19,10 @@ export default function Navbar() {
             <Link to="/projects" className="text-gray-700 hover:text-indigo-600">
               Projects
             </Link>
+            <Link to="/floating_projects" className="text-gray-700 hover:text-indigo-600">
+              Floating Projects
+            </Link>
+            
         </div>
         <div className="ml-auto hidden md:flex lg:ml-auto xl:ml-auto">
             <Link to="/contact" className="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
