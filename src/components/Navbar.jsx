@@ -9,21 +9,19 @@ export default function Navbar() {
     <nav className="bg-white border-b border-gray-200 fixed top-0 left-0 right-0 z-50">
       <div className="w-full px-8">
         <div className="flex items-center h-16">
-          <div className="flex gap-3 items-center">
-            <Link to="/" className="text-lg font-bold text-indigo-600">
-              Logo
-            </Link>
-            <Link to="/about" className="text-gray-700 hover:text-indigo-600">
-              About
-            </Link>
-            <Link to="/projects" className="text-gray-700 hover:text-indigo-600">
-              Projects
-            </Link>
-            <Link to="/floating_projects" className="text-gray-700 hover:text-indigo-600">
-              Floating Projects
-            </Link>
+            <div className="flex gap-3 items-center">
+                <Link to="/" className="text-lg font-bold text-indigo-600">
+                Logo
+                </Link>
+                <Link to="/about" className="text-gray-700 hover:text-indigo-600">
+                About
+                </Link>
+                <Link to="/projects" className="text-gray-700 hover:text-indigo-600">
+                Projects
+                </Link>
             
-        </div>
+            
+            </div>
         <div className="ml-auto hidden md:flex lg:ml-auto xl:ml-auto">
             <Link to="/contact" className="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
               Get in Touch
