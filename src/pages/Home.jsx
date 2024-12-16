@@ -9,7 +9,7 @@ export default function Home() {
         <HeroSection />
 
         
-        <HeroTailwind />
+        {/* <HeroTailwind /> */}
         <ToolsLogos />
         
         <Projects />
