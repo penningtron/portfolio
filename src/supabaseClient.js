@@ -11,6 +11,7 @@ if (!supabaseUrl || !supabaseAnonKey) {
   throw new Error('Supabase URL and Anon Key are required!');
 }
 
+
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 
