@@ -1,6 +1,6 @@
 // src/TodoApp.jsx
 import React, { useState, useEffect } from 'react';
-import supabase from './supabaseClient';
+import supabase from '../supabaseClient';
 
 const TodoApp = () => {
   const [todos, setTodos] = useState([]);
