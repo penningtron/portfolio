@@ -10,7 +10,7 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 // console.log("Supabase Anon Key:", supabaseAnonKey);
 
 if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error('Supabase URL and Anon Key are required!');
+    throw new Error('Vite Supabase URL and Anon Key are required!');
 }
 
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
