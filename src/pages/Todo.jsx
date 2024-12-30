@@ -10,6 +10,7 @@ const TodoApp = () => {
   useEffect(() => {
     const loadTodos = async () => {
       const { data, error } = await supabase.from('todos').select('*');
+      console.log(data)
       if (error) {
         console.error('Error fetching todos:', error);
       } else {
